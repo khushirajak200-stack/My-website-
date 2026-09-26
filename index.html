@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Khushi Rajak - Portfolio</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Arial,sans-serif}
+body{background:#f0f6ff;color:#1e293b}
+header{background:white;padding:15px 30px;display:flex;justify-content:space-between;align-items:center;box-shadow:0 2px 15px rgba(59,130,246,0.1);position:sticky;top:0;z-index:10}
+.logo{font-weight:bold;font-size:20px;color:#2563eb}
+nav a{color:#64748b;text-decoration:none;margin-left:20px;font-size:14px;font-weight:500}
+nav a:hover{color:#2563eb}
+.btn{background:#2563eb;color:white;padding:12px 28px;border-radius:8px;text-decoration:none;font-weight:bold;display:inline-block;margin:10px 10px 0 0}
+.btn2{border:2px solid #2563eb;color:#2563eb;padding:10px 26px;border-radius:8px;text-decoration:none;display:inline-block;margin-top:10px;font-weight:bold;background:white}
+.hero{text-align:center;padding:80px 20px;background:linear-gradient(135deg,#dbeafe 0%,#ffffff 50%,#eff6ff 100%)}
+.hero h1{font-size:48px;margin-bottom:10px;color:#1e293b}
+.hero h1 span{color:#2563eb}
+.hero p{color:#64748b;max-width:600px;margin:15px auto}
+.badge{background:#dbeafe;color:#2563eb;padding:6px 16px;border-radius:20px;font-size:12px;font-weight:bold;letter-spacing:1px}
+.stats{display:flex;gap:15px;justify-content:center;margin-top:30px;flex-wrap:wrap}
+.stat{background:white;border:1px solid #dbeafe;padding:15px 25px;border-radius:12px;font-size:14px;box-shadow:0 4px 12px rgba(37,99,235,0.08)}
+.page{max-width:1000px;margin:40px auto;padding:0 20px}
+.page h2{font-size:32px;color:#1e293b}
+.line{width:60px;height:4px;background:#2563eb;margin:10px 0 25px;border-radius:2px}
+.cards{display:flex;gap:20px;flex-wrap:wrap}
+.card{background:white;border:1px solid #e0eaff;border-radius:12px;padding:25px;flex:1;min-width:280px;box-shadow:0 4px 15px rgba(37,99,235,0.06)}
+.card h3{margin-bottom:10px;color:#1e293b}
+.card p{color:#64748b;font-size:14px}
+.tag{display:inline-block;background:#dbeafe;color:#2563eb;padding:4px 12px;border-radius:15px;font-size:12px;margin:8px 5px 0 0;font-weight:bold}
+.skills{display:flex;gap:10px;flex-wrap:wrap;margin-top:15px}
+.skill{background:white;border:1px solid #bfdbfe;padding:10px 20px;border-radius:25px;font-size:14px;color:#2563eb;font-weight:500;box-shadow:0 2px 8px rgba(37,99,235,0.06)}
+.about{display:flex;gap:40px;flex-wrap:wrap}
+.about div{flex:1;min-width:300px}
+.contact-box{background:white;border:1px solid #dbeafe;border-radius:12px;padding:25px;margin-top:20px;box-shadow:0 4px 15px rgba(37,99,235,0.06)}
+.contact-box p{margin:10px 0;color:#475569}
+footer{text-align:center;padding:30px;color:#94a3b8;font-size:13px;background:white;margin-top:50px;border-top:1px solid #e0eaff}
+a{color:#2563eb;text-decoration:none}
+a:hover{text-decoration:underline}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">Khushi Rajak 💙</div>
+<nav><a href="#">Home</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+</header>
+
+<div class="hero">
+<span class="badge">STUDENT • LEARNING WEB DEVELOPMENT</span>
+<h1>Hi, I'm Khushi Rajak<br><span>Learning Web Developer</span></h1>
+<p>I'm a student learning web development step by step. I know HTML and CSS, and I'm starting JavaScript next. I love building small projects to practice.</p>
+<a href="#projects" class="btn">View My Work</a>
+<a href="mailto:khushirajak200@gmail.com" class="btn2">Contact Me</a>
+<div class="stats">
+<div class="stat">📚 <b>Student</b><br>Learning Stage</div>
+<div class="stat">💻 <b>2 Projects</b><br>Built for Practice</div>
+<div class="stat">🎯 <b>Honest</b><br>No Fake Experience</div>
+</div>
+</div>
+
+<div class="page" id="projects">
+<h2>My Projects</h2><div class="line"></div>
+<div class="cards">
+<div class="card"><h3>🛍️ Naitik Store</h3><p>Simple e-commerce prototype to practice HTML and CSS. Product grid and responsive layout.</p><div><span class="tag">HTML</span><span class="tag">CSS</span></div><p style="margin-top:12px"><a href="https://github.com/khushirajak/naitik-store" target="_blank">View on GitHub →</a></p></div>
+<div class="card"><h3>🌐 My Website</h3><p>This portfolio website you are looking at now. Built while learning clean layout.</p><div><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Responsive</span></div><p style="margin-top:12px"><a href="https://github.com/khushirajak/My-website-" target="_blank">View on GitHub →</a></p></div>
+<div class="card"><h3>🚀 Coming Soon</h3><p>Next project after learning JavaScript basics. Stay tuned!</p><div><span class="tag">Learning</span></div></div>
+</div>
+
+<h2 id="skills" style="margin-top:50px">My Skills</h2><div class="line"></div>
+<div class="skills">
+<div class="skill">HTML</div><div class="skill">CSS</div><div class="skill">JavaScript - Starting Soon</div><div class="skill">Git & GitHub</div><div class="skill">Responsive Design</div>
+</div>
+</div>
+
+<div class="page" id="about">
+<h2>About Me</h2><div class="line"></div>
+<div class="about">
+<div>
+<p style="color:#475569">I'm a passionate student from India, focused on learning web development step by step. I started with HTML and CSS, and now I'm moving towards JavaScript.</p><br>
+<p style="color:#1e293b;font-weight:bold">What I Do</p>
+<p style="color:#475569;margin-top:10px">✅ Frontend Basics - Clean layouts with HTML & CSS<br>🔄 Learning Next - JavaScript, then React<br>📚 Daily Practice - Small projects to improve</p>
+</div>
+<div id="contact">
+<h2 style="font-size:24px">Get In Touch</h2><div class="line"></div>
+<div class="contact-box">
+<p>📧 <a href="mailto:khushirajak200@gmail.com">khushirajak200@gmail.com</a></p>
+<p>🔗 <a href="https://github.com/khushirajak" target="_blank">github.com/khushirajak</a></p>
+<p>💼 <a href="https://www.linkedin.com/in/khushi-rajak-7901aa413" target="_blank">linkedin.com/in/khushi-rajak</a></p>
+<p>📍 India • Student • Open to Feedback</p><br>
+<a href="mailto:khushirajak200@gmail.com" class="btn">Send Email</a>
+</div>
+</div>
+</div>
+</div>
+
+<footer>
+© 2026 Khushi Rajak • Made with 💙 using HTML & CSS • Learning Journey
+</footer>
+
+</body>
+</html>
