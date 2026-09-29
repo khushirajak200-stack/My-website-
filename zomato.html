@@ -3,34 +3,38 @@
 <head>
 <title>My Zomato</title>
 <style>
-body { font-family: Arial; margin:0; background:#fff5f5; }
-.header { background:#e23744; color:white; padding:20px; text-align:center; }
-.card { background:white; margin:20px; padding:15px; border-radius:10px; box-shadow: 0 2px 5px grey; }
-button { background:#e23744; color:white; border:none; padding:10px 20px; border-radius:5px; }
+body { font-family: Arial; text-align: center; background: #fff5f5; }
+h1 { color: #e23744; }
+.card { border: 1px solid #ddd; padding: 15px; margin: 15px; display: inline-block; width: 200px; border-radius: 10px; background: white; }
+button { background: #e23744; color: white; border: none; padding: 10px; border-radius: 5px; cursor: pointer; }
 </style>
 </head>
 <body>
-<div class="header">
 <h1>My Zomato</h1>
-<p>Order Your Favourite Food</p>
-</div>
+<p>Order delicious food online!</p>
 
 <div class="card">
 <h3>Pizza - Rs 299</h3>
 <p>Cheesy delicious pizza</p>
-<button>Order Now</button>
+<button onclick="orderNow('Pizza', 299)">Order Now</button>
 </div>
 
 <div class="card">
 <h3>Burger - Rs 149</h3>
 <p>Crispy veg burger</p>
-<button>Order Now</button>
+<button onclick="orderNow('Burger', 149)">Order Now</button>
 </div>
 
 <div class="card">
 <h3>Biryani - Rs 199</h3>
 <p>Hyderabadi dum biryani</p>
-<button>Order Now</button>
+<button onclick="orderNow('Biryani', 199)">Order Now</button>
 </div>
+
+<script>
+function orderNow(item, price) {
+  alert(item + " ordered! Total: Rs " + price);
+}
+</script>
 </body>
 </html>
