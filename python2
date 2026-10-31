@@ -1,0 +1,9 @@
+# Step 1: Ask the user for two numbers
+num1 = input("Enter first number: ")
+num2 = input("Enter second number: ")
+
+# Step 2: Convert the inputs from strings to decimal numbers (floats) and add them
+sum_result = float(num1) + float(num2)
+
+# Step 3: Display the final result using an f-string
+print(f"The sum of {num1} and {num2} is {sum_result}")
